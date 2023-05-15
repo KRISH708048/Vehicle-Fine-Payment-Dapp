@@ -32,10 +32,7 @@ const IssueFine = () => {
           <Form.Label>Fine Amount (ETH)</Form.Label>
           <Form.Control as='select' value={fineAmount} onChange={(e) => setFineAmount(e.target.value)}>
           <option value=''>Select Fine Type</option>
-            <option type='number' step='any' value='0.002'>Over Speeding- 0.002 ethers</option>
-            <option type='number' step='any' value='0.002'>Red Light- 0.002 ethers</option>
-            <option type='number' step='any' value='0.002'>No Seat Belt- 0.002 ethers</option>
-            <option type='number' step='any' value='0.002'>Drink and Drive- 0.002 ethers</option>
+            <option value='0.002'>0.002 ethers</option>
           </Form.Control>
          
         </Form.Group> <br />
